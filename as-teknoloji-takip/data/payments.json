@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "lastUpdate": "2026-01-17T10:30:00Z",
+    "period": "OCAK 2026",
+    "currency": {
+      "TRY": 1.0000,
+      "USD": 43.1000,
+      "EUR": 50.0000,
+      "GBP": 57.8000
+    }
+  },
+  "payments": [
+    {
+      "id": 1,
+      "itemName": "SGK (REPSAM)",
+      "companyName": "KEMAL BATMAZOĞLU",
+      "iban": "",
+      "serviceType": "RESMİ KURUM HARÇLARI",
+      "invoiceStatus": "FATURALI",
+      "projectName": "GZ",
+      "currency": "TL",
+      "previousDebt": 0,
+      "currentDebt": 565.00,
+      "totalDebt": 565.00,
+      "paid": 0,
+      "remaining": 565.00,
+      "documentUploaded": false,
+      "documentURL": ""
+    },
+    {
+      "id": 2,
+      "itemName": "RESMİ MUHASEBE GİDERİ",
+      "companyName": "KEMAL BATMAZOĞLU",
+      "iban": "",
+      "serviceType": "RESMİ KURUM HARÇLARI",
+      "invoiceStatus": "FATURASIZ",
+      "projectName": "CNN",
+      "currency": "TL",
+      "previousDebt": 0,
+      "currentDebt": 565.00,
+      "totalDebt": 565.00,
+      "paid": 0,
+      "remaining": 565.00,
+      "documentUploaded": false,
+      "documentURL": ""
+    }
+  ],
+  "summary": {
+    "byCurrency": {
+      "TL": {
+        "previousDebt": 0,
+        "currentDebt": 1130.00,
+        "totalDebt": 1130.00,
+        "paid": 0,
+        "remaining": 1130.00
+      }
+    },
+    "totalInEUR": {
+      "previousDebt": 0,
+      "currentDebt": 22.6,
+      "totalDebt": 22.6,
+      "paid": 0,
+      "remaining": 22.6
+    }
+  }
+}

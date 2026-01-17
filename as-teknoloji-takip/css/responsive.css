@@ -1,0 +1,105 @@
+/* responsive.css */
+
+/* Desktop First Approach */
+@media (max-width: 1280px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .dashboard-header {
+        flex-wrap: wrap;
+    }
+
+    .header-center {
+        order: 3;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .payments-table {
+        min-width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .table-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .table-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filter-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filter-group select,
+    .filter-group button {
+        width: 100%;
+    }
+
+    .modal-container {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .dashboard-header {
+        padding: 0.75rem;
+    }
+
+    .header-left .logo span {
+        display: none;
+    }
+
+    .breadcrumb {
+        font-size: 0.875rem;
+    }
+
+    .stat-card {
+        padding: 1rem;
+    }
+
+    .table-header h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+
+    .dashboard-header,
+    .table-actions,
+    .action-buttons,
+    .modal-overlay {
+        display: none !important;
+    }
+
+    .table-container {
+        box-shadow: none;
+    }
+
+    .payments-table {
+        font-size: 10pt;
+    }
+}
